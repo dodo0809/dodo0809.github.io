@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     Berechne.addEventListener("click", () => {
         const a = document.querySelector(".Zeit").value;
         const b = document.querySelector(".Strecke").value;
-        const ergebnis = a/b;
+        const ergebnis = b/a;
         const c = document.querySelector("#ergebnis");       
         if (isNaN(ergebnis)){
             c.innerHTML= "not a number"
