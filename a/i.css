@@ -1,20 +1,16 @@
-h1 {
-    text-align: start;
-    background-color: blue;
-    color: white;
-}
 
 h2{
-    text-align: end;
+    text-align: center;
     background-color: tomato;
     color: thistle;
-    font-size: 1cm;
+    font-size: .6cm;
 }
 .grid{
     
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 100px;
+    grid-template-columns: repeat(3, 3fr);
+    grid: .1cm;
+
 
 
 }
