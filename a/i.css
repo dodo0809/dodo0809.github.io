@@ -1,0 +1,24 @@
+h1 {
+    text-align: start;
+    background-color: blue;
+    color: white;
+}
+
+h2{
+    text-align: end;
+    background-color: tomato;
+    color: thistle;
+    font-size: 1cm;
+}
+.grid{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+
+
+}
+.a{
+    font-size: .7cm;
+    color: red;
+}
